@@ -11,7 +11,7 @@ A quick look at two projects: an early Firebase practice build and my current fl
 | | [firebase-database](https://github.com/Hamzaali565/firebase-database) | [marriage_biodata_hub](https://github.com/hamza-ali-565/marriage_biodata_hub) |
 |---|---|---|
 | **Purpose** | Learning project — Firebase/Firestore CRUD app | Production SaaS — free marriage biodata maker |
-| **Live URL** | parag-post.web.app | [marriagebiodatahub.com](https://www.marriagebiodatahub.com) |
+| **Live URL** | parag-post.web.app | marriagebiodatahub.com |
 | **Framework** | Create React App | Next.js 14 (App Router) |
 | **Styling** | Plain CSS | Tailwind CSS + Framer Motion |
 | **Backend / Data** | Firebase (Firestore/Hosting) | Static/SSR content, no external DB |
@@ -40,7 +40,7 @@ This repo represents foundational work with Firebase (Firestore-style data stora
 
 ## 💒 Marriage Biodata Hub
 
-**[Marriage Biodata Hub](https://www.marriagebiodatahub.com)** is a modern web app for creating stunning, professional, and elegant marriage biodatas — free templates, real-time preview, and instant PDF/JPEG export.
+**Marriage Biodata Hub** is a modern web app for creating stunning, professional, and elegant marriage biodatas — free templates, real-time preview, and instant PDF/JPEG export.
 
 ### ✨ Features
 - **Premium & Free Templates** — a growing library of biodata designs (with more batches in active development)
