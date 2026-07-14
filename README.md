@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# 👋 Hamza Ali — Project Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A quick look at two projects: an early Firebase practice build and my current flagship product, **Marriage Biodata Hub**.
 
-## Available Scripts
+[![Website](https://img.shields.io/badge/Website-Live-brightgreen.svg)](https://www.marriagebiodatahub.com) [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📊 Project Comparison
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| | [firebase-database](https://github.com/Hamzaali565/firebase-database) | [marriage_biodata_hub](https://github.com/hamza-ali-565/marriage_biodata_hub) |
+|---|---|---|
+| **Purpose** | Learning project — Firebase/Firestore CRUD app | Production SaaS — free marriage biodata maker |
+| **Live URL** | parag-post.web.app | [marriagebiodatahub.com](https://www.marriagebiodatahub.com) |
+| **Framework** | Create React App | Next.js 14 (App Router) |
+| **Styling** | Plain CSS | Tailwind CSS + Framer Motion |
+| **Backend / Data** | Firebase (Firestore/Hosting) | Static/SSR content, no external DB |
+| **Maturity** | 3 commits, unmodified CRA scaffold | 107 commits, actively maintained |
+| **Docs** | Default CRA README | Full custom README (features, SEO, deployment) |
+| **Status** | Archived / practice | Active development |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Takeaway:** `firebase-database` was an early exercise in wiring up Firebase with a React front end — useful groundwork for understanding client-side data flows and hosting deploys. `marriage_biodata_hub` is the production evolution of those skills: a fully-featured, SEO-optimized Next.js application with real users, a template system, and an ongoing content/growth strategy.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔥 firebase-database
 
-### `npm run build`
+A Create React App project wired up to Firebase, deployed via Firebase Hosting.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Stack:** React, Firebase, HTML, CSS
+- **Live demo:** [parag-post.web.app](https://parag-post.web.app/)
+- **Scripts:**
+  - `npm start` – run dev server at `localhost:3000`
+  - `npm test` – run test runner
+  - `npm run build` – production build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This repo represents foundational work with Firebase (Firestore-style data storage and Hosting deploys) before moving to more complex, production-grade architecture.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 💒 Marriage Biodata Hub
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**[Marriage Biodata Hub](https://www.marriagebiodatahub.com)** is a modern web app for creating stunning, professional, and elegant marriage biodatas — free templates, real-time preview, and instant PDF/JPEG export.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ✨ Features
+- **Premium & Free Templates** — a growing library of biodata designs (with more batches in active development)
+- **Dynamic Customization** — colors, layouts, and fonts to match personal or cultural preferences
+- **Real-Time Preview** — biodata updates live as details are entered
+- **One-Click Download** — export as high-quality PDF or JPEG
+- **SEO-Optimized Content** — articles and guides on biodata design and etiquette
+- **SaaS-Grade UI/UX** — dark-mode interface with Framer Motion animations and glassmorphism
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🛠️ Tech Stack
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **UI Library:** [React](https://reactjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** Vercel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🚀 Getting Started
+```bash
+git clone https://github.com/hamza-ali-565/marriage_biodata_hub.git
+cd marriage_biodata_hub
+npm install
+npm run dev
+```
+Then open `http://localhost:3000`.
 
-## Learn More
+### 📂 Folder Structure
+```
+├── app/                # Next.js App Router pages, layouts, metadata
+├── components/         # Reusable UI components (Header, Footer, Cards)
+├── data/                # Structured content/config data
+├── lib/                 # Shared utility functions
+├── public/images/       # Static assets and template previews
+└── package.json
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔍 SEO Optimization
+- Next.js dynamic metadata API on every route
+- Structured JSON-LD (Organization, FAQ schemas)
+- Semantic HTML and SEO-friendly internal linking
+- WebP images and static generation for fast loads
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🌐 Deployment
+Optimized for Vercel — push to GitHub, connect the repo, and Vercel auto-detects the Next.js build.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Both repos welcome issues and PRs. For Marriage Biodata Hub specifically:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the project
+2. Create a feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a Pull Request
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
+Marriage Biodata Hub is licensed under the MIT License — see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)...
+*From a first Firebase experiment to a full production SaaS — built with ❤️.*
