@@ -2,7 +2,7 @@
 
 A quick look at two projects: an early Firebase practice build and my current flagship product, **Marriage Biodata Hub**.
 
-[![Website](https://img.shields.io/badge/Website-Live-brightgreen.svg)](https://www.marriagebiodatahub.com) [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/badge/Biodata Maker App-Live-brightgreen.svg)](https://www.marriagebiodatahub.com) [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -11,7 +11,7 @@ A quick look at two projects: an early Firebase practice build and my current fl
 | | [firebase-database](https://github.com/Hamzaali565/firebase-database) | [marriage_biodata_hub](https://github.com/hamza-ali-565/marriage_biodata_hub) |
 |---|---|---|
 | **Purpose** | Learning project — Firebase/Firestore CRUD app | Production SaaS — free marriage biodata maker |
-| **Live URL** | parag-post.web.app | [biodata maker app](https://www.marriagebiodatahub.com) |
+| **Live URL** | parag-post.web.app | marriagebiodatahub.com |
 | **Framework** | Create React App | Next.js 14 (App Router) |
 | **Styling** | Plain CSS | Tailwind CSS + Framer Motion |
 | **Backend / Data** | Firebase (Firestore/Hosting) | Static/SSR content, no external DB |
